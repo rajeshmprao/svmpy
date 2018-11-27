@@ -7,6 +7,15 @@
 ```pip3 install git+https://github.com/rajeshmprao/svmpy.git```     
 
 ---
+
+### Requirements
+
+* numpy  
+* sklearn
+* matplotlib   
+* cvxopt
+
+---
 ### Sample code. 
 To run linear classifier on IRIS sample dataset with 2 features - sepal length and sepal width, with classes being iris-setosa and iris-versicolor.
 
@@ -39,11 +48,5 @@ clf.fit(X_train, y_train)
 y_predict = clf.predict(X_test)
 correct = np.sum(y_predict == y_test)
 print("%d out of %d predictions correct" % (correct, len(y_predict)))
-
-plot_contour(X_train[y_train==1], X_train[y_train==-1], clf) ```.   
-
-
----
-
- 
+plot_contour(X_train[y_train==1], X_train[y_train==-1], clf) ```  
 
