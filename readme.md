@@ -13,8 +13,8 @@
 
 ### Requirements
 
-numpy
-sklearn
-matplotlib
-cvxopt
+numpy. 
+sklearn. 
+matplotlib. 
+cvxopt. 
 
