@@ -1,6 +1,6 @@
 # svmpy 
 
-##Simple SVM classifier supporting linear and non linear kernels.
+## Simple SVM classifier supporting linear and non linear kernels.
 ---
 
 ### How to install.  
