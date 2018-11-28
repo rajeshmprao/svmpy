@@ -1,5 +1,5 @@
-from svm.utils import *
-from svm.svm import SVM, gaussian_kernel, polynomial_kernel
+from svmpy.utils import *
+from svmpy.svm import SVM, gaussian_kernel, polynomial_kernel
 from sklearn import datasets
 def test_non_linear():
     X1, y1, X2, y2 = gen_non_lin_separable_data()

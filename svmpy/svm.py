@@ -1,12 +1,9 @@
-# Mathieu Blondel, September 2010
-# License: BSD 3 clause
-
 import numpy as np
 from numpy import linalg
 import cvxopt
 import cvxopt.solvers
-from sklearn import datasets
 
+cvxopt.solvers.options['show_progress'] = False
 
 def linear_kernel(x1, x2):
     return np.dot(x1, x2)
